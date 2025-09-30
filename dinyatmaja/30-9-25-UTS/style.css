@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body {
+    font-family: "montserrat", sans-serif;
+}
+
+/* header */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 1%;
+    backdrop-filter: flex;
+    display: flex;
+
+    /* justify-content: center; */
+    justify-content:space-around;
+    z-index: 100;
+}
+
+
+
+.header .logo span {
+    color: rgb(17, 16, 17);
+
+}
+
+
+.header .navbar a {
+    font-size: 500;
+    color: bisque;
+    font-weight: 200;
+    margin: 100 100px;
+    
+}
+
+
+
+/* home section*/
+
+.home {
+    height: 100vh;
+    background-color: rgba(235, 248, 244, 0.884);
+    display: flex;
+    align-items: center;
+    gap: 100cm;
+    padding: 100px 12% 0;
+    justify-content: space-around;
+
+}
+
+.home .home-content {
+    max-width: 500px;
+    gap: 100cm;
+    justify-content:space-between;
+
+}
+
+.home .home-content h3 {
+    font-size: 24px;
+
+}
+
+.home .home-content h1 {
+    font-size: 40px;
+    line-height: 1;
+
+
+}
+
+.home .home-content p {
+    font-size: 16px;
+    margin: 0px 0 0px;
+}
+
+.home .img img {
+    width: 600px;
+}
+
+.home .home-content .btn-box {
+    display: flex;
+    width: 345px;
+    gap: 4em;
+}
+
+.btn-1 {
+    padding: 15px 20px;
+    background: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    background-color: purple;
+    color: black;
+    border: 2px solid black;
+}
+
+.btn-2 {
+    padding: 15px 20px;
+    background: black;
+    color: aliceblue;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+
+}
+
+.btn-2:hover {
+    padding: 15px 20px;
+    background: purple;
+    color: black6666666;
+    border: 2px solid black;
+}
